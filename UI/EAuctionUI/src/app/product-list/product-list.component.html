@@ -1,0 +1,45 @@
+<div>
+    <h3 style="font-weight: 300;margin-top: 30px;">{{title}}</h3>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Short Description</th>
+                <th>Detailed Description</th>
+                <th>Category</th>
+                <th>Starting Price</th>
+                <th>Bid End Date</th>
+                <th>Seller Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let product of products">                
+                <td>
+                    {{ product.Name}}
+                </td>
+                <td>
+                    {{ product.ShortDescription}}
+                </td>
+                <td>
+                    {{ product.DetailedDescription}}
+                </td>
+                <td>
+                    {{ product.Category}}
+                </td>
+                <td>
+                    {{ product.StartingPrice}}
+                </td>
+                <td>
+                    {{ product.BidEndDate}}
+                </td>
+                <td>
+                    {{ product.SellerName}}
+                </td>
+                <td><button type="button" class="btn btn-primary btn-sm"
+                     (click)="ShowBids(product.ID)">Show Bids</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

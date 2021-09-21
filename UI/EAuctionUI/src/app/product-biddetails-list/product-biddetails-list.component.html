@@ -1,0 +1,24 @@
+<h3 style="font-weight: 300;margin-top: 30px;">{{title}}</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Buyer Email</th>
+            <th>Buyer Name</th>
+            <th>Bid Amount</th>            
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let bid of bids">                
+            <td>
+                {{ bid.BuyerEmail}}
+            </td>
+            <td>
+                {{ bid.BuyerName}}
+            </td>
+            <td>
+                {{ bid.BidAmount}}
+            </td>            
+        </tr>
+    </tbody>
+</table>

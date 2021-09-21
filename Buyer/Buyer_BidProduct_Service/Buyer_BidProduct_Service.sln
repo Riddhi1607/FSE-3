@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buyer_BidProduct_Service", "Buyer_BidProduct_Service.csproj", "{9B7366AF-B411-451F-924F-88404534BC8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B7366AF-B411-451F-924F-88404534BC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7366AF-B411-451F-924F-88404534BC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7366AF-B411-451F-924F-88404534BC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7366AF-B411-451F-924F-88404534BC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84398584-D693-4E55-969F-94F0B933328D}
+	EndGlobalSection
+EndGlobal
